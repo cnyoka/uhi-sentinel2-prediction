@@ -1,6 +1,6 @@
 # Urban Heat Island Prediction from Sentinel-2 Satellite Imagery
 
-Machine learning pipeline that classifies urban heat island (UHI) intensity — Low, Medium, or High — from Sentinel-2 multispectral imagery and 3D building footprint data. Built during my MSBA at Hult International Business School (Fall 2025).
+Machine learning pipeline that classifies urban heat island (UHI) intensity — Low, Medium, or High — from Sentinel-2 multispectral imagery and 3D building footprint data. Built during my MBAn at Hult International Business School (Spring 2026).
 
 **Headline result: weighted F1 of 0.92 on the held-out test set, up from a 0.40 single-pixel baseline** — per-class F1 of 0.94 (High), 0.94 (Low), 0.88 (Medium).
 
@@ -38,6 +38,3 @@ Python · pandas · NumPy · rasterio · GeoPandas · Shapely · LightGBM · sci
 
 Feature extraction over the full rasters takes roughly 3–4 hours; the modeling steps (9–16) run in minutes once features are cached.
 
-## Notes
-
-Team challenge submission (Fall 2025), Hult MSBA; the feature engineering, modeling pipeline, and analysis in this notebook are my own work.
