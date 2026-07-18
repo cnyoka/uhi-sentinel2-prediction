@@ -1,0 +1,31 @@
+# Course challenge data — never commit
+*.tif
+*.tiff
+*.csv
+*.shp
+*.shx
+*.prj
+*.dbf
+*.cpg
+*.gpkg
+
+# Cached features / models
+*.pkl
+*.joblib
+*.npy
+
+# Secrets
+.env
+*api_key*
+*credentials*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
